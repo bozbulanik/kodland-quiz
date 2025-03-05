@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from models import db, User, QuizResult, Question
 from datetime import datetime
+from sqlalchemy import func
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///quiz.db'
@@ -48,8 +49,12 @@ def index():
         return redirect(url_for('set_user'))
         
     questions = Question.query.all()
+    max_questions = 15
+    selected_questions = Question.query.order_by(func.random()).limit(max_questions).all()
+    
     formatted_questions = [
         {
+            'enumerated_id': i + 1,
             'id': str(q.id),
             'question': q.text,
             'options': {
@@ -59,7 +64,7 @@ def index():
                 'd': q.option_d
             },
             'correct': q.correct_option
-        } for q in questions
+        } for i, q in enumerate(selected_questions)
     ]
     return render_template('index.html', questions=formatted_questions, current_username=user.username)
 
