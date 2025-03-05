@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "question_text": "Python'da hangi kütüphane, doğal dil işleme uygulamaları için yaygın olarak kullanılır?",
+      "options": {
+        "a": "NumPy",
+        "b": "Pandas",
+        "c": "NLTK",
+        "d": "Matplotlib"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "Python'da oyun geliştirmek için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "pygame",
+        "b": "discord.py",
+        "c": "Flask",
+        "d": "TensorFlow"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Flask ve Django arasındaki fark nedir?",
+      "options": {
+        "a": "Flask hafif ve esnek, Django ise kapsamlı bir web framework'üdür",
+        "b": "Flask sadece chat uygulamaları içindir",
+        "c": "Django daha hızlıdır",
+        "d": "Flask daha güvenlidir"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Discord botları için hangi kütüphane yaygın olarak kullanılır?",
+      "options": {
+        "a": "discord.py",
+        "b": "TensorFlow",
+        "c": "NLTK",
+        "d": "Flask"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da web geliştirme için kullanılan bir framework nedir?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "Flask",
+        "c": "pygame",
+        "d": "NumPy"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Yapay zeka uygulamaları için hangi kütüphane Python'da yaygın olarak kullanılır?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "Flask",
+        "c": "discord.py",
+        "d": "NLTK"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da resim işleme için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "Pillow",
+        "b": "Flask",
+        "c": "pygame",
+        "d": "TensorFlow"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Doğal dil işleme (NLP) için en popüler kütüphanelerden biri nedir?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "NLTK",
+        "c": "pygame",
+        "d": "Flask"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da web sayfalarındaki HTML ve XML verilerini çekmek için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "Pillow",
+        "b": "BeautifulSoup",
+        "c": "Flask",
+        "d": "pygame"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Hangi kütüphane Python'da makine öğrenmesi uygulamaları için kullanılır?",
+      "options": {
+        "a": "NumPy",
+        "b": "Flask",
+        "c": "TensorFlow",
+        "d": "pygame"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "TensorFlow nedir?",
+      "options": {
+        "a": "Bir resim işleme kütüphanesidir",
+        "b": "Bir web framework'üdür",
+        "c": "Bir yapay zeka ve makine öğrenmesi kütüphanesidir",
+        "d": "Bir oyun geliştirme kütüphanesidir"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "Python'da chatbotlar için kullanılan popüler kütüphane nedir?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "discord.py",
+        "c": "Flask",
+        "d": "pygame"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da web uygulamaları için kullanılan en yaygın veritabanı nedir?",
+      "options": {
+        "a": "MongoDB",
+        "b": "MySQL",
+        "c": "SQLite",
+        "d": "Pandas"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "HTML sayfası içeriğini çekmek için hangi Python kütüphanesi kullanılır?",
+      "options": {
+        "a": "BeautifulSoup",
+        "b": "Flask",
+        "c": "pygame",
+        "d": "TensorFlow"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da yapay zeka projelerinde en çok kullanılan kütüphane nedir?",
+      "options": {
+        "a": "Pillow",
+        "b": "Flask",
+        "c": "TensorFlow",
+        "d": "pygame"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "NLP, doğal dil işleme nedir?",
+      "options": {
+        "a": "Büyük veri analizi",
+        "b": "Yapay zeka ile insanların doğal dilini anlama",
+        "c": "Resim işleme",
+        "d": "Veritabanı yönetimi"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da chatbotlar için kullanılan hangi kütüphane Discord ile uyumludur?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "discord.py",
+        "c": "Flask",
+        "d": "BeautifulSoup"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da web sayfası geliştirmek için kullanılan en popüler framework nedir?",
+      "options": {
+        "a": "Flask",
+        "b": "pygame",
+        "c": "TensorFlow",
+        "d": "discord.py"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da yapay zeka modelini eğitmek için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "Flask",
+        "b": "TensorFlow",
+        "c": "discord.py",
+        "d": "Pillow"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da bir Discord botu yapmak için hangi kütüphaneye ihtiyaç vardır?",
+      "options": {
+        "a": "Flask",
+        "b": "discord.py",
+        "c": "pygame",
+        "d": "TensorFlow"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da doğal dil işleme için kullanılan bir kütüphane olan NLTK ne anlama gelir?",
+      "options": {
+        "a": "Natural Language Toolkit",
+        "b": "Neural Language Task Kit",
+        "c": "Numeric Language Text Kit",
+        "d": "Natural Latent Task Kit"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da doğal dil işleme projelerinde hangi kütüphane en yaygın olarak kullanılır?",
+      "options": {
+        "a": "TensorFlow",
+        "b": "Pandas",
+        "c": "NLTK",
+        "d": "BeautifulSoup"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "Python'da web sayfası üzerinden veri çekmek için kullanılan kütüphane nedir?",
+      "options": {
+        "a": "Flask",
+        "b": "BeautifulSoup",
+        "c": "TensorFlow",
+        "d": "pygame"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da resim tanıma uygulamaları için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "OpenCV",
+        "b": "TensorFlow",
+        "c": "pygame",
+        "d": "Flask"
+      },
+      "answer": "a"
+    },
+    {
+      "question_text": "Python'da veritabanı işlemleri için kullanılan popüler kütüphane hangisidir?",
+      "options": {
+        "a": "MySQL",
+        "b": "SQLite",
+        "c": "Flask",
+        "d": "Pandas"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da yapay zeka ile ilgili projelerde hangi kütüphane daha yaygın kullanılır?",
+      "options": {
+        "a": "Flask",
+        "b": "TensorFlow",
+        "c": "pygame",
+        "d": "BeautifulSoup"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da sesli yanıt sistemleri oluşturmak için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "Flask",
+        "b": "pygame",
+        "c": "SpeechRecognition",
+        "d": "discord.py"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "Python'da resim işleme uygulamaları için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "OpenCV",
+        "b": "Flask",
+        "c": "Pillow",
+        "d": "TensorFlow"
+      },
+      "answer": "c"
+    },
+    {
+      "question_text": "Python'da yapay zeka ve makine öğrenmesi için kullanılan kütüphaneler hangileridir?",
+      "options": {
+        "a": "Flask, Pillow",
+        "b": "TensorFlow, Keras",
+        "c": "NumPy, Matplotlib",
+        "d": "pygame, Flask"
+      },
+      "answer": "b"
+    },
+    {
+      "question_text": "Python'da veri görselleştirme yapmak için hangi kütüphane kullanılır?",
+      "options": {
+        "a": "pygame",
+        "b": "Matplotlib",
+        "c": "Flask",
+        "d": "discord.py"
+      },
+      "answer": "b"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Sınav Sonuçları</h1>
+
+<div class="result-card">
+<p><strong>Adınız:</strong> {{ username }}</p>
+<p><strong>Skorunuz:</strong> %{{ score }}</p>
+<p><strong>Kişisel yüksek skorunuz:</strong> %{{ user_highest }}</p>
+<p><strong>Genel yüksek skor:</strong> %{{ overall_highest }}</p>
+<!-- <a href="{{ url_for('index') }}">Yeniden Dene</a> -->
+<form action="{{ url_for('index') }}">
+    <button type="submit">Yeniden Dene </button>
+</form>
+
+</div>
+{% endblock %}

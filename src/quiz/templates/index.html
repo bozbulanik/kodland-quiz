@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 style="text-align: center;">Sınav</h1>
+
+<form method="POST" action="{{ url_for('submit') }}">
+    <div>
+        <p>Adınız:</p>
+        <input type="text" id="username" name="username" 
+               value="{{ current_username if current_username else '' }}" 
+               required>
+    </div>
+    {% for question in questions %}
+    <div class="question-box">
+        <h3><span>Soru {{question.id}}: </span>{{ question.question }}</h3>
+        {% for option_key, option_value in question.options.items() %}
+        <label>
+            <input class="option" type="radio" name="{{ question.id }}" value="{{ option_key }}">
+            {{ option_value }}
+        </label><br>
+        {% endfor %}
+    </div>
+    {% endfor %}
+    <br />
+    <button type="submit">Cevapları Gönder</button>
+</form>
+{% endblock %}

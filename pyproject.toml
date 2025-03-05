@@ -1,0 +1,16 @@
+[project]
+name = "quiz"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-wtf>=1.2.2",
+    "flask-sqlalchemy>=3.1.1",
+    "wtforms>=3.2.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
